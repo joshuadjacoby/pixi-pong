@@ -1,0 +1,20 @@
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @font-face {
+    font-family: "ArcadeClassic";
+    src: url("../fonts/arcade.ttf");
+} */
+
+@font-face {
+    font-family: 'ArcadeClassic';
+    src: url('../fonts/ArcadeClassic.eot') format('embedded-opentype'),
+        url('../fonts/ArcadeClassic.woff2') format('woff2'),
+        url('../fonts/ArcadeClassic.woff') format('woff'),
+        url('../fonts/ArcadeClassic.ttf') format('truetype'),
+        url('../fonts/ArcadeClassic.svg') format('svg');
+}
